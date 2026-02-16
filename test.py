@@ -1,4 +1,5 @@
-a=25
-b=45
-print("The result is", a+b)
-print("This is a scripting method!!")
+import time
+
+for i in range(5):
+    print(f"Loading... {i}", end="")
+    time.sleep(1)
